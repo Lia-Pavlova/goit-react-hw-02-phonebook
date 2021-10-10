@@ -20,7 +20,7 @@ ContactList.propTypes = {
   contacts: PropTypes.arrayOf(
     PropTypes.objectOf(PropTypes.string.isRequired).isRequired,
   ).isRequired,
-  onDeleteContacts: PropTypes.number.isRequired,
+  onDeleteContacts: PropTypes.func.isRequired,
 };
 
 export { ContactList };
